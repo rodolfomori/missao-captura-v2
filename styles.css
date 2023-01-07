@@ -45,9 +45,9 @@ body {
 }
 
 .logo-missao-zero {
-    max-height: 372px;
-    margin-top: -50px;
-    margin-left: -25px;
+    margin: 60px 0 60px -15px;
+    height: 80px;
+    max-width: 1000px !important;
 }
 
 .primeiro-texto-main-inicial,
@@ -454,4 +454,133 @@ footer p:first-child {
 footer p:last-child {
     font-family: 'Sora-Bold';
     font-size: 12px;
+}
+
+#_form_35_ ._submit {
+    background: #fb8000 !important;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    color: black !important;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+#_form_35_ ._submit b{ 
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Sora-Bold';
+}
+
+
+
+#_form_35_ input[type="text"]._has_error,
+#_form_35_ textarea._has_error {
+    border: #f37c7b 1px solid;
+}
+
+#_form_35_ input[type="checkbox"]._has_error {
+    outline: #f37c7b 1px solid;
+}
+
+#_form_35_ ._error {
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    z-index: 10000001;
+}
+
+#_form_35_ ._error._above {
+    padding-bottom: 4px;
+    bottom: 149px;
+    right: 20px;
+}
+
+#_form_35_ ._error._below {
+    padding-top: 4px;
+    top: 100%;
+    right: 0;
+}
+
+#_form_35_ ._error._above ._error-arrow {
+    bottom: 0;
+    right: 15px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #f37c7b;
+}
+
+#_form_35_ ._error._below ._error-arrow {
+    top: 0;
+    right: 15px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #f37c7b;
+}
+
+#_form_35_ ._error-inner {
+    padding: 8px 12px;
+    background-color: #f37c7b;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#_form_35_ ._error-inner._form_error {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#_form_35_ ._button-wrapper ._error-inner._form_error {
+    position: static;
+}
+
+#_form_35_ ._error-inner._no_arrow {
+    margin-bottom: 10px;
+}
+
+#_form_35_ ._error-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+#_form_35_ ._error-html {
+    margin-bottom: 10px;
+}
+
+#_form_35_ {
+    position: relative;
+}
+
+#_form_35_ .phone-error-hidden {
+    display: none;
+}
+
+#_form_35_ .phone-error {
+    color: #e40e49;
+}
+
+#_form_35_ .phone-input-error {
+    border: 1px solid #e40e49 !important;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 5px;
+    border: none;
+    font-family: 'Sora-Bold';
+    margin-top: 20px;
 }
